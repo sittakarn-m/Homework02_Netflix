@@ -1,0 +1,109 @@
+body {
+    background-image: linear-gradient(to bottom, #000000bb, #00000022, #000000bb), url(./img/netflix_bg_index.jpg);
+    font-family: "Kanit", serif;
+    font-style: normal;
+}
+
+h1 {
+    /* background-color: aqua; */
+    font-weight: 600;
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-size-adjust: inherit;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    /* background-color: blueviolet; */
+    font-weight: 200;
+}
+
+p {
+    font-weight: 100;
+}
+
+header {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-items: center;
+}
+
+nav {
+    /* background-color: blueviolet; */
+}
+
+select,
+.Submit {
+    font-size: 15px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 6px;
+    margin: 8px;
+    color: white;
+}
+
+select {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+}
+
+option {
+    background-color: white;
+    color: black;
+}
+
+.Submit {
+    background-color: red;
+    border: none;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.logo {
+    box-sizing: border-box;
+    /* width: 100%;
+    height: auto; */
+}
+
+section {
+    /* background-color: blue; */
+    display: block;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 20rem;
+}
+section h1 {
+    font-size: 4rem;
+}
+
+#email,
+#submitemail {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: none;
+}
+
+#submitemail {
+    background-color: red;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    border-radius: 6px;
+    margin: 8px;
+    color: white;
+}
